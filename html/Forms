@@ -31,5 +31,6 @@
   <label for="上傳頭像">添加頭像:</label>
   <input type="file" id="上傳頭像" name="上傳頭像"><br><br>
   <input type="submit" value="提交">
+
 </body>
 </html>
