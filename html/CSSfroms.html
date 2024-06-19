@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 36px;
+      color: #ff6f61;
+    }
+
+    label {
+      font-size: 20px;
+      color: #4a4a4a;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="file"], input[type="submit"], input[type="date"] {
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+      transform: scale(1.2); /* 放大選項按鈕 */
+    }
+
+    input[type="submit"] {
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #e04a3f;
+    }
+
+    /* 模擬動漫風格 */
+    input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="file"], input[type="submit"], input[type="date"] {
+      background-color: #f7f7f7;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="file"]:focus, input[type="date"]:focus {
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+<h2>註冊表單</h2>
+
+<form>
+  <label for="fname">姓:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">名:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">信箱:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="password">密碼:</label><br>
+  <input type="password" id="password" name="password"><br><br>
+
+  <label>性別:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">男</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">女</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">其他</label><br><br>
+
+  <label for="birthday">出生年月日:</label><br>
+  <input type="date" id="birthday" name="birthday"><br><br>
+
+  <label for="phone">電話號碼:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="+886-000-000-000"><br><br>
+
+  <label for="avatar">添加頭像:</label><br>
+  <input type="file" id="avatar" name="avatar"><br><br>
+
+  <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
