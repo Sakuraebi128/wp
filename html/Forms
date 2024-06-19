@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2>註冊表單</h2>
+
+<form action="/action_page.php">
+  <label for="fname">姓:</label><br>
+  <input type="text" id="姓" name="姓"><br>
+  <label for="lname">名:</label><br>
+  <input type="text" id="名" name="名"><br><br>
+  <label for="lname">信箱:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="密碼">密碼:</label><br>
+  <input type="password" id="密碼" name="password"><br><br>
+</form>
+  <label for="性別">性別:</label><br>
+  <input type="radio" id="男" name="性別" value="男">
+  <label for="男">男</label><br>
+  <input type="radio" id="女" name="性別" value="女">
+  <label for="女">女</label><br>
+  <input type="radio" id="不提供" name="性別" value="不提供">
+  <label for="不提供">不提供</label><br><br>
+<form action="/action_page.php">
+  <label for="birthday">出生年月日:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+</form>
+  <label for="電話號碼">電話號碼:</label>
+  <input type="tel" id="電話號碼" name="phone" placeholder="+886-000-000-000"><br><br>
+</form>
+  <label for="上傳頭像">添加頭像:</label>
+  <input type="file" id="上傳頭像" name="上傳頭像"><br><br>
+  <input type="submit" value="提交">
+</body>
+</html>
