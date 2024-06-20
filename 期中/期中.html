@@ -40,8 +40,8 @@
             grid-template-columns: 125px auto 200px;
             grid-template-rows: auto;
             grid-template-areas:
-                "main right"
-                "sub right";
+                "side main right"
+                "side sub right";
             background-color:#0000E3;
             gap:10px;
             padding:10px;
@@ -51,6 +51,9 @@
             background-color: #84C1FF;
             padding:150px 0;
             font-size:20px;
+        }
+        .item1{
+            grid-area: side;
         }
         .item2{
             grid-area: main;
@@ -136,6 +139,7 @@
 </div>
 
 <div class="grid-container">
+    <div class="item1" style="text-align: center;">側邊</div>
     <div class="item2" style="text-align: center;">主內容</div>
     <div class="item4" style="text-align: center;">副內容</div>
     <div class="item5" style="text-align: center;">右方內容</div>
