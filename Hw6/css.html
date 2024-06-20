@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50px;
+        background: linear-gradient(to right,#2894FF,#C4E1FF);
+        overflow-x: hidden;
+        transition: width 0.3s ease;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .sidebar:hover {
+        width: 150px;
+    }
+
+    .sidebar h2 {
+        font-size: 20px;
+        margin: 20px 0;
+        transition: opacity 0.3s ease;
+        opacity: 0;
+        color: #0000C6;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #0000C6 ;
+        display: block;
+        padding: 10px;
+        transition: color 0.3s ease, opacity 0.3s ease;
+        opacity: 0;
+    }
+
+    .sidebar a:hover {
+        color: #000000;
+    }
+
+    .sidebar:hover h2,
+    .sidebar:hover a {
+        opacity: 1;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        transition: transform 0.3s ease;
+        color: #0000C6;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <h1>≡</h1>
+        <h2>選單</h2>
+        <a href="#">• 首頁</a>
+        <a href="#">• 作品</a>
+        <a href="#">• 個人簡介</a>
+        <a href="#">• 聯絡我</a>
+    </div>
+</div>
+
+</body>
+</html>
