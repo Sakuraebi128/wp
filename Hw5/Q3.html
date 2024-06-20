@@ -1,6 +1,6 @@
 <html>
-    </body>
-    <button id="myButton">Move Me!</button>
+    <body>
+    <button id="myButton">隨機位置</button>
     <style>
         button {
             position: absolute;
@@ -12,21 +12,20 @@
             cursor: pointer;
         }
     </style>>
-    </body>
     <script>
-        function randomPosition() {
-        var button = document.getElementById('myButton');
-        var windowHeight = window.innerHeight;
-        var windowWidth = window.innerWidth;
+        const button = document.getElementById('myButton');
 
-        var randomX = Math.random() * (windowWidth - button.offsetWidth);
-        var randomY = Math.random() * (windowHeight - button.offsetHeight);
+        button.addEventListener('click', () => {
+            const maxWidth = window.innerWidth - button.offsetWidth;
+            const maxHeight = window.innerHeight - button.offsetHeight;
 
-        button.style.top = randomY + 'px';
-        button.style.left = randomX + 'px';
+            const newX = Math.floor(Math.random() * maxWidth);
+            const newY = Math.floor(Math.random() * maxHeight);
 
-        var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-        button.style.backgroundColor = randomColor;
-        }
+            button.style.left = `${newX}px`;
+            button.style.top = `${newY}px`;
+    });
     </script>
+    </body>
+    
 </html>
