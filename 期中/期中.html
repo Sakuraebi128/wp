@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>website</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(to top,#2894FF,#C4E1FF);
+            margin: 0;
+        }
+        .header{
+            background-image: url('img/banner.jpg');
+            padding: 50px;
+            text-align: center;
+        }
+        .topnav{
+            overflow: hidden;
+            background-color:#C4E1FF;
+        }
+        .topnav a {
+            display: block;
+            background: #C4E1FF;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+            width: 33%;
+            margin: 0 auto;
+        }
+        .topnav a:hover {
+            background-color: #84C1FF;
+        } 
+        .grid-container{
+            display: grid;
+            grid-template-columns: 125px auto 200px;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "main right"
+                "sub right";
+            background-color:#0000E3;
+            gap:10px;
+            padding:10px;
+            margin-left: 50px; /* Adjust to fit the sidebar */
+        }
+        .grid-container > div{
+            background-color: #84C1FF;
+            padding:150px 0;
+            font-size:20px;
+        }
+        .item2{
+            grid-area: main;
+        }
+        .item4{
+            grid-area: sub;
+        }
+        .item5{
+            grid-area: right;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 50px;
+            background: linear-gradient(to right,#2894FF,#C4E1FF);
+            overflow-x: hidden;
+            transition: width 0.3s ease;
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .sidebar:hover {
+            width: 150px;
+        }
+
+        .sidebar h2 {
+            font-size: 20px;
+            margin: 20px 0;
+            transition: opacity 0.3s ease;
+            opacity: 0;
+            color: #0000C6;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #0000C6 ;
+            display: block;
+            padding: 10px;
+            transition: color 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+        }
+
+        .sidebar a:hover {
+            color: #000000;
+        }
+
+        .sidebar:hover h2,
+        .sidebar:hover a {
+            opacity: 1;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            transition: transform 0.3s ease;
+            color: #0000C6;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h1>≡</h1>
+    <h2>選單</h2>
+    <a href="#">• 首頁</a>
+    <a href="#">• 作品</a>
+    <a href="#">• 個人簡介</a>
+    <a href="#">• 聯絡我</a>
+</div>
+
+<div class="header"></div>
+<div class="topnav">
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+</div>
+
+<div class="grid-container">
+    <div class="item2" style="text-align: center;">主內容</div>
+    <div class="item4" style="text-align: center;">副內容</div>
+    <div class="item5" style="text-align: center;">右方內容</div>
+</div>
+
+</body>
+</html>
