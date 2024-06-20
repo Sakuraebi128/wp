@@ -1,6 +1,6 @@
 <html>
-    <body>
-    <button id="myButton">隨機位置</button>
+<body>
+    <button id="moveButton">隨機位置</button>
     <style>
         button {
             position: absolute;
@@ -8,12 +8,12 @@
             left: 50%;
             transform: translate(-50%, -50%);
             padding: 10px 20px;
-            font-size: 16px;
+            font-size: 24px;
             cursor: pointer;
         }
-    </style>>
+    </style>
     <script>
-        const button = document.getElementById('myButton');
+        const button = document.getElementById('moveButton');
 
         button.addEventListener('click', () => {
             const maxWidth = window.innerWidth - button.offsetWidth;
@@ -26,6 +26,5 @@
             button.style.top = `${newY}px`;
     });
     </script>
-    </body>
-    
+</body>
 </html>
