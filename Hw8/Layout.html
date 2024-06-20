@@ -11,7 +11,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;
+    background: linear-gradient(to top,#2894FF,#C4E1FF);
+    height: 100px;
     margin: 0;
   }
 .header{
@@ -21,11 +22,11 @@ body {
 }
 .topnav{
     overflow: hidden;
-    background-color: #333;
+    background-color:#C4E1FF;
 }
 .topnav a {
     display: block;
-    color: #f2f2f2;
+    background:	#C4E1FF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,25 +35,26 @@ body {
     margin: 0 auto;
 }
 .topnav a:hover {
-    background-color: gainsboro;
+    background-color: #84C1FF;
 } 
 .grid-container{
     display:grid;
     grid-template-columns: 250px auto 200px ;
     grid-template-rows: 300px 3px 300px ;
-    background-color: black;
+    background-color:#0000E3;
     gap:10px;
     padding:10px;
 }
 .grid-container > div{
-    background-color: gainsboro;
-    padding:20px 0;
-    font-size:30px;
+    background-color: #84C1FF;
+    padding:150px 0;
+    font-size:20px;
 }
 .item1{
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 4;
+    
 }
 
 .item5{
@@ -70,11 +72,10 @@ body {
     </div>
 
     <div class="grid-container">
-        <div class="item1" style="text-align: center;">side</div>
-        <div class="item2" style="text-align: center;">main</div>
-        <div class="item3" style="text-align: center;"></div>
-        <div class="item4" style="text-align: center;"></div>
-        <div class="item5" style="text-align: center;">side</div>
+        <div class="item1" style="text-align: center;">側邊</div>
+        <div class="item2" style="text-align: center;">主內容</div>
+        <div class="item4" style="text-align: center;">副內容</div>
+        <div class="item5" style="text-align: center;">右方內容</div>
     </div>
 </body>
 </html>
