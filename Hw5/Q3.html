@@ -1,1 +1,30 @@
+<html>
+<body>
+    <button id="moveButton">隨機位置</button>
+    <style>
+        button {
+            position: absolute;
+            top: 75%;
+            left: 75%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        const button = document.getElementById('moveButton');
 
+        button.addEventListener('click', () => {
+            const maxWidth = window.innerWidth - button.offsetWidth;
+            const maxHeight = window.innerHeight - button.offsetHeight;
+
+            const newX = Math.floor(Math.random() * maxWidth);
+            const newY = Math.floor(Math.random() * maxHeight);
+
+            button.style.left = `${newX}px`;
+            button.style.top = `${newY}px`;
+    });
+    </script>
+</body>
+</html>
