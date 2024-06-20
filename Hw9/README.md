@@ -1,11 +1,12 @@
 # 畫圖網頁
 
 ## 連結
-| project | source |
+| project | 連結 |
 | --- | --- |
 | html |https://sakuraebi128.github.io/wp/Hw9/Draw.html|
 
-## detal
-我藝術天分不太好所以我負責想!
-ChatGPT負責做!
+## 解說
+我先丟了一個自己在小畫家畫的圖給ChatGPT
+然後細節上跟線條都是自己修理
+但因為曲線的調整到最後變成一隻幽靈
 
