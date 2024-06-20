@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>website</title>
+    <title>櫻花蝦的網站</title>
     <style>
         *{
             box-sizing: border-box;
@@ -60,9 +60,11 @@
         }
         .item4{
             grid-area: sub;
+            text-align: center;
         }
         .item5{
             grid-area: right;
+            text-align: center;
         }
         .sidebar {
             position: fixed;
@@ -148,8 +150,54 @@
         很高興可以透過我的網頁認識大家，<br>
         如果有各方面對這個網站的疑問，歡迎向我提問喔!
     </div>
-    <div class="item4" style="text-align: center;">暫未更新...</div>
+    <div class="item4" style="text-align: left;">
+        <h2>消遣時間小遊戲</h2>
+        <p>猜一個1到100之間的數字：</p>
+        <input type="number" id="guessField">
+        <button id="submitButton">提交</button>
+        <p id="resultText"></p>
+        <p id="attempts">猜測次數: 0</p>
+
+        <script>
+            let answer = Math.floor(Math.random() * 100) + 1;
+            let attempts = 0;
+
+            const guessField = document.getElementById('guessField');
+            const submitButton = document.getElementById('submitButton');
+            const resultText = document.getElementById('resultText');
+            const attemptsText = document.getElementById('attempts');
+
+            submitButton.addEventListener('click', function() {
+                let guess = parseInt(guessField.value);
+
+                if (isNaN(guess) || guess < 1 || guess > 100) {
+                    alert('請輸入1到100之間的數字！');
+                    return;
+                }
+
+                attempts++;
+                attemptsText.textContent = `猜測次數: ${attempts}`;
+
+                if (guess === answer) {
+                    resultText.textContent = `恭喜你，猜對了！答案是 ${answer}。`;
+                    resultText.style.color = 'green';
+                    guessField.disabled = true;
+                    submitButton.disabled = true;
+                } else if (guess < answer) {
+                    resultText.textContent = '猜小了，再試試看！';
+                    resultText.style.color = 'blue';
+                } else {
+                    resultText.textContent = '猜大了，再試試看！';
+                    resultText.style.color = 'red';
+                }
+
+                guessField.value = '';
+            });
+        </script>
+    </div>
     <div class="item5" style="text-align: center;">暫未更新...</div>
 </div>
+
 </body>
 </html>
+
