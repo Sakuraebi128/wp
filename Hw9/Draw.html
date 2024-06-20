@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            margin: 0;
+        }
+
+        #catCanvas {
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="catCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById('catCanvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = 400;
+        canvas.height = 400;
+
+        ctx.strokeStyle = '#fff';
+        ctx.lineWidth = 3;
+        
+        ctx.beginPath();
+        ctx.moveTo(100, 300);
+        ctx.lineTo(150, 100);
+        ctx.quadraticCurveTo(200, 20, 270, 100);
+        ctx.lineTo(350, 300);
+        ctx.stroke();
+
+        
+        ctx.beginPath();
+        ctx.arc(170, 200, 10, 0, Math.PI * 2, true);
+        ctx.arc(230, 200, 10, 0, Math.PI * 2, true);
+        ctx.fillStyle = '#fff';
+        ctx.fill();
+
+       
+        ctx.beginPath();
+        ctx.arc(160, 220, 5, 0, Math.PI * 2, true);
+        ctx.arc(240, 220, 5, 0, Math.PI * 2, true);
+        ctx.fillStyle = '#fff';
+        ctx.fill();
+
+        
+        ctx.beginPath();
+        ctx.moveTo(195, 230);
+        ctx.lineTo(205, 230);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(190, 230, 5, 0, Math.PI, false);
+        ctx.moveTo(210, 235);
+        ctx.arc(210, 230, 5, 0, Math.PI, false);
+        ctx.stroke();
+
+        
+        ctx.beginPath();
+        ctx.moveTo(140, 100);
+        ctx.lineTo(150, 150);
+        ctx.lineTo(130, 150);
+        ctx.fillStyle = '#000';
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(260, 100);
+        ctx.lineTo(250, 150);
+        ctx.lineTo(270, 150);
+        ctx.fillStyle = '#000';
+        ctx.fill();
+
+        
+        ctx.beginPath();
+        ctx.moveTo(280, 250);
+        ctx.bezierCurveTo(290, 220, 320, 220, 320, 250);
+        ctx.bezierCurveTo(320, 300, 240, 310, 300, 300);
+        ctx.bezierCurveTo(270, 300, 240, 280, 240, 250);
+        ctx.bezierCurveTo(240, 220, 270, 220, 280, 250);
+        ctx.stroke();
+    </script>
+</body>
+</html>
