@@ -33,7 +33,7 @@
 * [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw6/css.html)
 2. Js版
 * [網頁](https://sakuraebi128.github.io/wp/Hw6/Java.html)
-* [原始碼}(https://github.com/Sakuraebi128/wp/blob/master/Hw6/Java.html)
+* [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw6/Java.html)
 ## 作業7：SHA256 雜湊介面
 SHA 256參考上課範例，以及copy按鈕參考ChatGPT。  
 * [網頁](https://sakuraebi128.github.io/wp/Hw7/Sha.html)
