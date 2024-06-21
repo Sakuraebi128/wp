@@ -17,13 +17,13 @@
 第3、5題參考chatgpt，第8題參考解答。
 * [原始碼](https://github.com/Sakuraebi128/wp/tree/master/Hw4)
 ## 作業5：DOM 的 JavaScript 操控練習
-按鈕按下去會變大
+1.按鈕按下去會變大
 * [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw5/Q1.html)
 * [網頁](https://sakuraebi128.github.io/wp/Hw5/Q1.html)
-按鈕按下去會右移 
+2.按鈕按下去會右移 
 * [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw5/Q2.html)
 * [網頁](https://sakuraebi128.github.io/wp/Hw5/Q2.html)
-按鈕按下去會隨機移動
+3.按鈕按下去會隨機移動
 * [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw5/Q3.html)
 * [網頁](https://sakuraebi128.github.io/wp/Hw5/Q3.html)
 ## 作業6：側欄 -- CSS Transition 與 JavaScript 
