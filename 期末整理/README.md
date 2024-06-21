@@ -53,4 +53,12 @@ SHA 256參考上課範例，以及copy按鈕參考ChatGPT。
 ## 作業11：請閱讀 denoApiService + Blog 的程式碼，並寫下你的理解，然後為程式碼加上詳細的註解
 * 未完成 
 ## 期中作業：請寫一個網頁作品
+從最一開始的自我介紹，<br>
+到後來的Layout布置，我都有盡量放進去。<br>
+側欄是依照之前的作業下去更改，<br>
+基本格式是依照layout布置，<br>
+其中有一些調整和對齊是ChatGpt幫我的，<br>
+下方的小遊戲一半是我自己寫的，其餘部分是AI，
+* [網頁](https://sakuraebi128.github.io/wp/%E6%9C%9F%E4%B8%AD/%E6%9C%9F%E4%B8%AD.html)
+* [原始碼](https://github.com/Sakuraebi128/wp/tree/master/%E6%9C%9F%E4%B8%AD)
 
