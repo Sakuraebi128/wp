@@ -14,19 +14,18 @@
 第一次在VS code使用JavaScript寫程式，所以大部分參考老師上課範例。
 * [原始碼](https://github.com/Sakuraebi128/wp/tree/master/Hw3)
 ## 作業4：JavaScript 練習 2
-不確定過濾掉那些不合的內容要怎麼去寫，所以第3題參考chatgpt，搞不懂梯度下降法，第八題參考解答。
-* [程式碼]
+第3、5題參考chatgpt，第8題參考解答。
+* [原始碼](https://github.com/Sakuraebi128/wp/tree/master/Hw4)
 ## 作業5：DOM 的 JavaScript 操控練習
-前1,2題參考老師上課範例，第三題參考ChatGpt讓按鈕隨機顏色。
-1.  按鈕按下去寬高都會變大 10px
-* [程式碼]
-* [網頁]  
-2.  按鈕按下去會右移 10px
-* [程式碼]
-* [網頁] 
-3.  一個會自己到處移動的按鈕
-* [程式碼]
-* [網頁]
+按鈕按下去會變大
+* [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw5/Q1.html)
+* [網頁](https://sakuraebi128.github.io/wp/Hw5/Q1.html)
+按鈕按下去會右移 
+* [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw5/Q2.html)
+* [網頁](https://sakuraebi128.github.io/wp/Hw5/Q2.html)
+按鈕按下去會隨機移動
+* [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw5/Q3.html)
+* [網頁](https://sakuraebi128.github.io/wp/Hw5/Q3.html)
 ## 作業6：側欄 -- CSS Transition 與 JavaScript 
 參考w3 school和上課範例，製作CSS與JavaScript版本的側欄
 1. CSS
