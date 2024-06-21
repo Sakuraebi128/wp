@@ -27,28 +27,30 @@
 * [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw5/Q3.html)
 * [網頁](https://sakuraebi128.github.io/wp/Hw5/Q3.html)
 ## 作業6：側欄 -- CSS Transition 與 JavaScript 
-參考w3 school和上課範例，製作CSS與JavaScript版本的側欄
-1. CSS
-* [程式碼]
-* [網頁]
-2. JS
-* [程式碼]
-* [網頁]
+從W3school和範例，製作CSS與JavaScript版本的側欄，美化是從ChatGpt擷取部分再由我改編。
+1. css版
+* [網頁](https://sakuraebi128.github.io/wp/Hw6/css.html)
+* [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw6/css.html)
+2. Js版
+* [網頁](https://sakuraebi128.github.io/wp/Hw6/Java.html)
+* [原始碼}(https://github.com/Sakuraebi128/wp/blob/master/Hw6/Java.html)
 ## 作業7：SHA256 雜湊介面
-SHA256參考上課範例，copy按鈕參考ChatGPT。  
-* [程式碼]
-* [網頁]
+SHA 256參考上課範例，以及copy按鈕參考ChatGPT。  
+* [網頁](https://sakuraebi128.github.io/wp/Hw7/Sha.html)
+* [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw7/Sha.html)
 ## 作業8：Layout 佈局
-參考w3 school，讓我理解到了網站的佈局。
-* [程式碼]
-* [網頁]
+從W3school擷取部分，然後背景顏色自己調整，其餘美觀部分參考ChatGpt。
+* [網頁](https://sakuraebi128.github.io/wp/Hw8/Layout.html)
+* [原始碼](https://github.com/Sakuraebi128/wp/blob/master/Hw8/Layout.html)
 ## 作業9：請做一個有繪圖的網頁 （難度不限，可以用套件）
-參考圖片描繪出像速風格，進行修改，旁邊漸變方塊參考w3 school上課範例。
-* [程式碼]
-* [網頁]
+我先丟了一個自己在小畫家畫的小貓圖給ChatGPT，<br>
+然後細節上跟線條都是自己修理，<br>
+但因為曲線的調整到最後變成一隻幽靈。
+* [網頁](https://sakuraebi128.github.io/wp/Hw9/Draw.html)
+* [原始碼](https://github.com/Sakuraebi128/wp/tree/master/Hw9)
 ## 作業10：請用 groq 大語言模型 LLM 做一個簡單的網頁應用
-  
+* 未完成
 ## 作業11：請閱讀 denoApiService + Blog 的程式碼，並寫下你的理解，然後為程式碼加上詳細的註解
-  
+* 未完成 
 ## 期中作業：請寫一個網頁作品
 
